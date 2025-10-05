@@ -1,0 +1,19 @@
+"C:\Users\King Richard III\PycharmProjects\QR Code Project\.venv\Scripts\python.exe" main.py 
+Enter command (ADD/REMOVE/NEXT/PREV/CURRENT/PRINT/LEN/CLEAR/QUIT): ADD "The Less I know the Better" Tame_Impala 218
+Enter command (ADD/REMOVE/NEXT/PREV/CURRENT/PRINT/LEN/CLEAR/QUIT): CURRENT
+-> The Less I know the Better | Tame_Impala | 218(s)
+Enter command (ADD/REMOVE/NEXT/PREV/CURRENT/PRINT/LEN/CLEAR/QUIT): ADD "Bad Guy" Billie_Eilish 194
+Enter command (ADD/REMOVE/NEXT/PREV/CURRENT/PRINT/LEN/CLEAR/QUIT): print
+The Less I know the Better | Tame_Impala | 218(s)
+-> Bad Guy | Billie_Eilish | 194(s)
+Enter command (ADD/REMOVE/NEXT/PREV/CURRENT/PRINT/LEN/CLEAR/QUIT): NEXT
+Enter command (ADD/REMOVE/NEXT/PREV/CURRENT/PRINT/LEN/CLEAR/QUIT): CURRENT
+-> The Less I know the Better | Tame_Impala | 218(s)
+Enter command (ADD/REMOVE/NEXT/PREV/CURRENT/PRINT/LEN/CLEAR/QUIT): REMOVE
+Enter command (ADD/REMOVE/NEXT/PREV/CURRENT/PRINT/LEN/CLEAR/QUIT): Print
+-> Bad Guy | Billie_Eilish | 194(s)
+Enter command (ADD/REMOVE/NEXT/PREV/CURRENT/PRINT/LEN/CLEAR/QUIT): len
+1
+Enter command (ADD/REMOVE/NEXT/PREV/CURRENT/PRINT/LEN/CLEAR/QUIT): Quit
+
+Process finished with exit code 0

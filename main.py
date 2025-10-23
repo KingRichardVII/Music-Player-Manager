@@ -32,7 +32,7 @@ class Playlist:
         self.cursor = None #cursor = the current node or "song"
         self._size = 0 #length = 0
 
-    def add_after_cursor(self, title, artist, duration):
+    def add_after_cursor(self, title: str, artist: str, duration: int): #FIXME Changed this line to ensure correct variable type. Run to see if compiles.
         #creates a node
         new_node = Node(title, artist, duration)
         #if empty make one-node ring that becomes head and current node
@@ -187,3 +187,4 @@ def main():
 #Allows us to call main and start program
 if __name__ == "__main__":
     main()
+
